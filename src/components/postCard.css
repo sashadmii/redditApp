@@ -1,0 +1,60 @@
+.card {
+    width: 90%;
+    margin: 1.5rem;
+    background-color: #fefbf6;
+    border: 0.05rem solid;
+    border-radius: 0.9rem;
+    padding: 2rem;
+    text-align: start;
+}
+
+h2:hover {
+    color: #ecb159;
+    cursor: pointer;
+}
+
+h2:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+h2,
+h3,
+.selftext {
+    margin: 1rem;
+}
+
+.commentsContainer {
+    margin-top: 4.5rem;
+    text-align: center;
+}
+
+.commentsButton {
+    float: right;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #8cb9bd;
+    color: #fefaf6;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.commentsButton:hover {
+    background-color: #53bcc6;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+}
+
+.commentsButton:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+}

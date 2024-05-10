@@ -1,0 +1,17 @@
+.comments {
+    width: 90%;
+    margin: 1rem;
+    background-color: #eee;
+    border: 0;
+    border-radius: 0.9rem;
+    padding: 0.9rem;
+    text-align: start;
+}
+
+h4 {
+    margin: 0.5rem;
+}
+
+p {
+    margin: 0.5rem;
+}

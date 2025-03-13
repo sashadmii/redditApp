@@ -1,25 +1,25 @@
 .subredditsContainer {
-    margin-top: 3.2rem;
-    display: inline-flex;
-    flex-direction: column;
-    width: 30%;
+  margin-top: 3.2rem;
+  display: inline-flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 .subredditCard {
-    width: 90%;
-    margin: 0.3rem;
-    background-color: #fefbf6;
-    border: 0.05rem solid;
-    border-radius: 0.9rem;
-    padding: 0.3rem;
-    text-align: center;
+  width: 90%;
+  margin: 0.3rem;
+  background-color: #c1d8c3;
+  border: 0.1rem solid #6a9c89;
+  border-radius: 0.9rem;
+  padding: 0.3rem;
+  text-align: center;
 }
 
 .subredditCard:hover {
-    background-color: #eee;
-    cursor: pointer;
+  background-color: #f6f3ed;
+  cursor: pointer;
 }
 
 .subredditCard:active {
-    color: #c7c8cc;
+  color: #c7c8cc;
 }

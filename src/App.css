@@ -1,17 +1,16 @@
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #8cb9bd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff5e4;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #fefaf6;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    display: flex;
-    width: 95%;
+  display: flex;
+  width: 95%;
 }

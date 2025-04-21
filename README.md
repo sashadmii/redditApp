@@ -1,24 +1,22 @@
 # RedditApp
 
-A React-based Reddit-style app where users can browse and filter recipes by cuisine. The app is built with modern tools like React Router, Redux Toolkit, and Tailwind CSS, and deployed on GitHub Pages.
+A minimal Reddit client built with React. Users can browse Reddit posts, filter by subreddit, and view individual post details.
 
-## 🚀 Demo
+## 🌐 Live Demo
 
-👉 [Live Demo](https://sashadmii.github.io/redditApp)
+👉 [View it on GitHub Pages](https://sashadmii.github.io/redditApp)
 
 ## 🛠 Tech Stack
 
 - **React**
-- **Redux Toolkit** for state management
-- **React Router DOM** for routing
-- **Tailwind CSS** for styling
-- **Vite** for fast development and builds
-- **GitHub Pages** for deployment
+- **Redux Toolkit**
+- **React Router DOM**
+- **GitHub Pages** – Deployment
 
 ## ✨ Features
 
-- Homepage with a scrollable list of cuisines
-- Dynamic routing for recipe detail pages
-- 404 Not Found page for unmatched routes
-- Responsive layout for all devices
-- Smooth navigation and UI feedback
+- Browse posts from selected subreddits
+- Search functionality
+- View post details
+- 404 page for unknown routes
+- Responsive layout

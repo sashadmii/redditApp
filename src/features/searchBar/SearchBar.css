@@ -55,3 +55,37 @@ input:focus {
   font-size: 2rem;
   color: #6a9c89;
 }
+
+@media (max-width: 768px) {
+  .search {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .search img {
+    width: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .searchInput {
+    width: 90%;
+  }
+
+  .search input {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.7rem;
+    height: auto;
+  }
+
+  .searchButton {
+    width: 3rem;
+    height: auto;
+  }
+
+  .searchButton svg {
+    font-size: 1.5rem;
+  }
+}

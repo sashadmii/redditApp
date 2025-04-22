@@ -1,59 +1,84 @@
 .card {
-  width: 90%;
-  margin: 1.5rem;
+  width: 100%;
+  margin: 1.5rem auto;
   background-color: #fefbf6;
   border: 0.1rem solid #6a9c89;
   border-radius: 0.9rem;
   padding: 2rem;
   text-align: start;
-}
-
-h2:hover {
-  color: #6a9c89;
-  cursor: pointer;
-}
-
-h2:visited {
-  color: #000;
-  text-decoration: none;
+  box-sizing: border-box;
 }
 
 .card img {
   width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 h2,
 h3,
 .selftext {
-  margin: 1rem;
+  margin: 1rem 0;
+  word-wrap: break-word;
 }
 
 .commentsContainer {
-  margin-top: 4.5rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
 .commentsButton {
   float: right;
-  padding: 12.5px 30px;
+  padding: 0.8rem 1.8rem;
   border: 0;
   border-radius: 100px;
   background-color: #c1d8c3;
-  font-weight: Bold;
+  font-weight: bold;
   transition: all 0.5s;
-  -webkit-transition: all 0.5s;
+  font-size: 1rem;
 }
 
 .commentsButton:hover {
   background-color: #ffa725;
   box-shadow: 0 0 20px #6fc5ff50;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .commentsButton:active {
   background-color: #6a9c89;
   transition: all 0.25s;
-  -webkit-transition: all 0.25s;
   box-shadow: none;
   transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.2rem;
+  }
+
+  .commentsButton {
+    float: none;
+    display: block;
+    margin: 1rem auto 0;
+    width: 80%;
+    font-size: 0.95rem;
+  }
+
+  .commentsContainer {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .selftext {
+    font-size: 0.95rem;
+  }
 }

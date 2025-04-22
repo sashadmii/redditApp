@@ -23,3 +23,42 @@
 .subredditCard:active {
   color: #c7c8cc;
 }
+
+.desktopOnly {
+  display: block;
+}
+
+.mobileOnly {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .desktopOnly {
+    display: none;
+  }
+
+  .mobileOnly {
+    display: block;
+  }
+
+  .mobileDropdownContainer {
+    margin-top: 3.2rem;
+    width: 90%;
+  }
+
+  .mobileDropdown {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #6a9c89;
+    background-color: #f6f3ed;
+    color: #333;
+    margin-top: 1rem;
+  }
+
+  .mobileDropdown:focus {
+    outline: none;
+    border-color: #c1d8c3;
+  }
+}

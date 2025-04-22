@@ -1,17 +1,31 @@
 .comments {
-    width: 90%;
-    margin: 1rem;
-    background-color: #eee;
-    border: 0;
-    border-radius: 0.9rem;
-    padding: 0.9rem;
-    text-align: start;
+  width: 90%;
+  margin: 1rem auto;
+  background-color: #eee;
+  border: none;
+  border-radius: 0.9rem;
+  padding: 0.9rem 1.2rem;
+  text-align: start;
+  box-sizing: border-box;
+  word-wrap: break-word;
 }
 
-h4 {
-    margin: 0.5rem;
+.comments h4,
+.comments p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
 }
 
-p {
-    margin: 0.5rem;
+@media (max-width: 768px) {
+  .comments {
+    padding: 0.8rem 1rem;
+  }
+
+  .comments h4 {
+    font-size: 0.95rem;
+  }
+
+  .comments p {
+    font-size: 0.95rem;
+  }
 }

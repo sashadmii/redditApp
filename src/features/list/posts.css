@@ -1,6 +1,15 @@
 .posts {
-    margin-top: 2rem;
-    display: inline-flex;
-    flex-direction: column;
-    width: 90%;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .posts {
+    padding: 0 0.5rem;
+    max-width: 100%;
+  }
 }

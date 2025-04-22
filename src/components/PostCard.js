@@ -19,7 +19,6 @@ export const PostCard = ({
   const dispatch = useDispatch();
   const commentsToRenderObject = useSelector(selectComments);
   const commentsToRender = commentsToRenderObject[id] || [];
-  console.info('commentsToRenderObject', commentsToRenderObject);
 
   // on the title click redirects the user to the post on Reddit
   const handleClick = (permalink) => {
